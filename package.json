@@ -1,0 +1,17 @@
+{
+  "name": "ohh1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mysql2": "^1.5.2",
+    "pg": "6",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.35.5",
+    "superagent": "^3.8.2",
+    "tedious": "^2.3.1"
+  },
+  "author": "ViktorMun <v.mun@yahoo.com>"
+}
