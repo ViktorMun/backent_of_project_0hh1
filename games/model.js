@@ -4,7 +4,8 @@ const sequelize = require('../db')
 const Games = sequelize.define('Games', {
   game: Sequelize.STRING,
   board: Sequelize.STRING,
-  locked: Sequelize.STRING
+  locked: Sequelize.STRING,
+  sidebar: Sequelize.STRING
 }, {
   tableName: 'Games',
   timestamps: false
